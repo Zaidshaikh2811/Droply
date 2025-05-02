@@ -7,10 +7,12 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import SignupForm from "@/components/UI/SignupForm";
+import SignInForm from "@/components/UI/SignInForm";
 
 export default function Home() {
   return (
 
-    <SignupForm />
+    // <SignupForm />
+    <SignInForm />
   );
 }
